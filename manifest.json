@@ -1,0 +1,67 @@
+{
+  "name": "universal-skills",
+  "version": "1.0.0",
+  "description": "A curated, frontend-focused skill pack for AI coding agents: UX review, UI design, frontend implementation, QA, and accessibility.",
+  "skills": [
+    {
+      "name": "accessibility-and-inclusive-visualization",
+      "path": "skills/accessibility-and-inclusive-visualization/SKILL.md",
+      "description": "Make data visualizations accessible and inclusive. Use when the user needs chart or diagram accessibility guidance, text alternatives for complex visuals, color and contrast review, keyboard support, reduced-motion behavior for animation or parallax, or an accessibility QA workflow for exported figures, UML-like diagrams, and dashboards."
+    },
+    {
+      "name": "audit",
+      "path": "skills/audit/SKILL.md",
+      "description": "Audit or critique a product flow, journey, workflow, funnel, onboarding path, checkout path, settings path, screen, or multi-step product experience by capturing screenshots first, then reporting UX, design, and accessibility findings inline from that evidence. Use Figma only when the user explicitly asks for a board. Use when the user asks to audit, review, critique, inspect, assess, analyze, evaluate, or give feedback on a product experience."
+    },
+    {
+      "name": "design-qa",
+      "path": "skills/design-qa/SKILL.md",
+      "description": "Internal prototype QA helper. Use only after a Product Design prototype, URL-to-code build, or image-to-code build has a source visual target and a rendered implementation to compare before handoff. Do not use for broad UX critique, design critique, product audits, or flow reviews; route those user-facing requests to audit."
+    },
+    {
+      "name": "frontend-app-builder",
+      "path": "skills/frontend-app-builder/SKILL.md",
+      "description": "Use for new frontend applications, dashboards, games, creative websites, hero sections, and visually driven UI from scratch, or when the user explicitly asks for a redesign/restyle/modernization. Builds from clean, airy, high-taste, readable image-generated concept design with section-specific references, faithful implementation, and browser testing."
+    },
+    {
+      "name": "frontend-testing-debugging",
+      "path": "skills/frontend-testing-debugging/SKILL.md",
+      "description": "Use when testing, debugging, or making targeted improvements to rendered frontend apps through the Build Web Apps or web dev plugin: local dev servers, UI regressions, interaction bugs, console errors, responsive layout, and visual QA. Check whether the Browser plugin is available and use it first when it is; otherwise use regular Playwright with the recorded reason."
+    },
+    {
+      "name": "get-context",
+      "path": "skills/get-context/SKILL.md",
+      "description": "Mandatory design-brief gate for clarifying the product and outcome. Use before ideation, image-to-code builds, redesigns, or product UI work to clarify missing product information and play back the brief before proceeding."
+    },
+    {
+      "name": "ideate",
+      "path": "skills/ideate/SKILL.md",
+      "description": "Generate image-based alternatives, remixes, or new design directions from a Product Design brief. Use when the user asks for design variants, visual exploration, remixes, or image-generated approaches from provided context."
+    },
+    {
+      "name": "image-to-code",
+      "path": "skills/image-to-code/SKILL.md",
+      "description": "Implement a selected image, screenshot, mockup, or Image Gen reference as a faithful, responsive frontend."
+    },
+    {
+      "name": "react-best-practices",
+      "path": "skills/react-best-practices/SKILL.md",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
+    },
+    {
+      "name": "research",
+      "path": "skills/research/SKILL.md",
+      "description": "Run fast, source-grounded UX research on the highest-signal problems users are experiencing with a user-specified digital product. Use when the user asks to research user pain, UX friction, onboarding issues, docs/help problems, developer experience friction, support pain, product workflow issues, or current user complaints for a named product."
+    },
+    {
+      "name": "url-to-code",
+      "path": "skills/url-to-code/SKILL.md",
+      "description": "Clone a live URL as a runnable frontend-only local app."
+    },
+    {
+      "name": "visualization-strategy-and-critique",
+      "path": "skills/visualization-strategy-and-critique/SKILL.md",
+      "description": "Choose, lay out, critique, and explain data visualizations. Use when the user asks what visualization fits a dataset or goal, how a chart, dashboard, operational workspace, UML-like diagram, or software architecture diagram should be composed or interacted with, asks for visual page design, a layout mockup, generated large-screen and mobile concept images, or to be shown what a visualization could look like, when domain-native contextual surfaces or graphical backgrounds may help, when scrollytelling or parallax might be appropriate, wants a critique of an existing visualization, or needs guidance grounded in trusted visualization theory and practice. For advanced visual design or page-layout prompts where composition affects understanding, Codex must generate and show both large-screen and mobile portrait image concepts before implementation or text-only design handoff, plus mobile landscape when needed."
+    }
+  ]
+}
