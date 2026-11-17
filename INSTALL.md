@@ -2,7 +2,7 @@
 
 One copy-paste block for Ubuntu. It downloads this repo, finds the `skills/` folder, and installs every skill into your agent's skills directory.
 
-**Repo owner:** replace `OWNER/REPO` in the block below with your GitHub path (for example `jane/universal-skills`) before publishing. Then users only need to copy and paste — no edits.
+**Published repo:** `github.com/Svnd3/ujuzi`. The block below works as-is — copy, paste, press Enter. No edits.
 
 ---
 
@@ -14,8 +14,8 @@ Copy everything in this block, paste it into a terminal, press Enter.
 (
 set -euo pipefail
 
-# Change OWNER/REPO here (or leave it and paste the URL when prompted).
-REPO="${REPO:-https://github.com/OWNER/REPO}"
+# Override with your own fork if you like.
+REPO="${REPO:-https://github.com/Svnd3/ujuzi}"
 BRANCH="${BRANCH:-main}"
 REPO="${REPO%.git}"
 

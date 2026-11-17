@@ -4,7 +4,7 @@ A small, frontend-focused skill pack for AI coding agents. Twelve skills that co
 
 No API keys. No bundled binaries. No vendor lock-in. Each skill is a plain folder with a `SKILL.md`.
 
-> **Repo name tip:** GitHub repo names cannot contain spaces. Rename this folder to `universal-skills` when you publish.
+> Published at **github.com/Svnd3/ujuzi**.
 
 ---
 
