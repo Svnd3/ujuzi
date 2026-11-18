@@ -132,7 +132,7 @@ Do not write reports, screenshots, traces, or temporary scripts into the repo un
 ## Related Skills
 
 - Use `frontend-app-builder` when the task is design creation, redesign, or fidelity to an accepted concept.
-- Use `react-best-practices` after meaningful React/Next.js component edits.
+- Use `shadcn` when the project builds on shadcn/ui and you need component, theming, or registry conventions.
 - Do not invoke Image Gen for ordinary debugging. Use it only when the task requires creating or revising visual assets, or when `frontend-app-builder` is already driving a concept-to-implementation fidelity loop.
 
 ## Final Response

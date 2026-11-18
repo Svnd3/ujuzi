@@ -9,19 +9,21 @@ Files were copied on **2026-11-16** from an installed skill library, from these 
 | Source group | Skills taken |
 | --- | --- |
 | `product-design` | `audit`, `design-qa`, `get-context`, `ideate`, `research`, `image-to-code`, `url-to-code` |
-| `build-web-apps` | `frontend-app-builder`, `frontend-testing-debugging`, `react-best-practices` |
+| `build-web-apps` | `frontend-app-builder`, `frontend-testing-debugging`, `shadcn` |
 | `build-web-data-visualization` | `accessibility-and-inclusive-visualization`, `visualization-strategy-and-critique` |
 
 ## Attribution
 
-- **`react-best-practices`** declares `metadata.author: vercel` and `version: 1.0.0` in its frontmatter, and its body states the rules are "from Vercel Engineering". No license file accompanied the source copy. Verify redistribution terms and keep the attribution visible, or replace it with a link to Vercel's published guidance.
-- **All other skills** carried no author or license metadata in the source copies. Their origin should be confirmed before public distribution.
+- No skill in this pack declares an `author` or `license` field. All twelve were authored as agent instructions rather than copied from a licensed documentation set.
+- **`shadcn`** documents the shadcn/ui command line and component conventions. shadcn/ui itself is distributed under the MIT license; this skill contains workflow guidance and no redistributed library code.
+- The Vercel-attributed `react-best-practices` skill was intentionally left out of this pack, so no third-party rule text is reproduced here.
 
 ## Modifications made for this pack
 
 - Removed empty plugin-internal sections ("Critical Overrides", router/preflight instructions) that referenced files not included here.
 - Rewrote links that pointed to skills or shared references outside this subset into plain-language guidance.
 - Trimmed reference lists to files that actually exist in each skill folder.
+- Replaced a cross-reference to the removed `react-best-practices` skill with an in-pack pointer.
 
 No substantive guidance or workflows were changed.
 

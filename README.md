@@ -30,7 +30,7 @@ No API keys. No bundled binaries. No vendor lock-in. Each skill is a plain folde
 | Skill | What it does |
 | --- | --- |
 | [`frontend-app-builder`](skills/frontend-app-builder/SKILL.md) | Builds polished frontends from scratch with a concept-first, browser-tested workflow. |
-| [`react-best-practices`](skills/react-best-practices/SKILL.md) | 64 prioritized React/Next.js rules for rendering, data fetching, and bundle performance. |
+| [`shadcn`](skills/shadcn/SKILL.md) | Component and design-system workflow for shadcn/ui: adding components, theming, styling rules, and registry/CLI operations. |
 
 ### Verify
 
@@ -115,8 +115,8 @@ universal-skills/
     ├── get-context/
     ├── ideate/
     ├── image-to-code/
-    ├── react-best-practices/
     ├── research/
+    ├── shadcn/
     ├── url-to-code/
     └── visualization-strategy-and-critique/
 ```
@@ -161,5 +161,5 @@ Keeping the free pack tight leaves room for deeper, specialized packs to stand o
 Read [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md) before publishing.
 
 - These files were adapted from an installed skill library. Confirm you hold redistribution rights for each one.
-- `react-best-practices` is attributed to Vercel Engineering in its own metadata and had no license file in the source copy.
+- `shadcn` documents the shadcn/ui CLI and component conventions; shadcn/ui itself is MIT-licensed. No vendor-authored rule text ships in this pack.
 - Add your chosen `LICENSE` (MIT or Apache-2.0 are common for skill packs) and keep the notices file in place.

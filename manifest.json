@@ -44,14 +44,14 @@
       "description": "Implement a selected image, screenshot, mockup, or Image Gen reference as a faithful, responsive frontend."
     },
     {
-      "name": "react-best-practices",
-      "path": "skills/react-best-practices/SKILL.md",
-      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements."
-    },
-    {
       "name": "research",
       "path": "skills/research/SKILL.md",
       "description": "Run fast, source-grounded UX research on the highest-signal problems users are experiencing with a user-specified digital product. Use when the user asks to research user pain, UX friction, onboarding issues, docs/help problems, developer experience friction, support pain, product workflow issues, or current user complaints for a named product."
+    },
+    {
+      "name": "shadcn",
+      "path": "skills/shadcn/SKILL.md",
+      "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a components.json file. Also triggers for \"shadcn init\", \"create an app with --preset\", or \"switch to --preset\"."
     },
     {
       "name": "url-to-code",

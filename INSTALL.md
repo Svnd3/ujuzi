@@ -154,7 +154,7 @@ If your folder is somewhere else, change the `cd` path on the first line.
 ls -1 "$HOME/.claude/skills"
 ```
 
-You should see 12 folders, including `audit`, `design-qa`, `get-context`, and `react-best-practices`. Each contains a `SKILL.md`.
+You should see 12 folders, including `audit`, `design-qa`, `get-context`, and `shadcn`. Each contains a `SKILL.md`.
 
 Check one file:
 
@@ -179,7 +179,7 @@ mv "$HOME/.claude/skills/audit.bak.1730000000" "$HOME/.claude/skills/audit"
 ## Uninstall
 
 ```bash
-for name in audit accessibility-and-inclusive-visualization design-qa frontend-app-builder frontend-testing-debugging get-context ideate image-to-code react-best-practices research url-to-code visualization-strategy-and-critique; do
+for name in audit accessibility-and-inclusive-visualization design-qa frontend-app-builder frontend-testing-debugging get-context ideate image-to-code research shadcn url-to-code visualization-strategy-and-critique; do
   rm -rf "$HOME/.claude/skills/$name" "$HOME/.codex/skills/$name"
 done
 ```
